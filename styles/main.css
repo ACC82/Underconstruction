@@ -72,6 +72,18 @@ h1,
 }
 
 @media screen and (max-width: 576px) {
+.container .row .left-wrap .left p {
+  display: none;
+  font-family: "Muli", sans-serif;
+  font-size: 3.5em;
+  margin-right: 5em;
+  font-weight: bold;
+  color:black;
+  text-shadow: 0.1em 0.1em 0.15em #cf0;
+}
+}
+
+@media screen and (max-width: 576px) {
   .container .row .left-wrap .left p {
     font-size: 2em;
     margin: 0.5em 0 0.5em 0;
@@ -110,6 +122,7 @@ h1,
   -webkit-box-flex: 1;
   -ms-flex: 1;
   flex: 1;
+  background-color: rgba(204, 255, 0, 0.721);
 }
 
 @media screen and (max-width: 576px) {
