@@ -68,10 +68,10 @@ h1,
   margin-right: 5em;
   font-weight: bold;
   color:black;
-  text-shadow: 0.1em 0.1em 0.15em #cf0;
+  text-shadow: 0.1em 0.1em 0.15em rgb(251,208,101);
 }
 
-@media screen and (max-width: 576px) {
+@media screen and (max-width: 1180px) {
 .container .row .left-wrap .left p {
   display: none;
   font-family: "Muli", sans-serif;
@@ -79,7 +79,7 @@ h1,
   margin-right: 5em;
   font-weight: bold;
   color:black;
-  text-shadow: 0.1em 0.1em 0.15em #cf0;
+  text-shadow: 0.1em 0.1em 0.15em rgb(251,208,101);
 }
 }
 
@@ -206,7 +206,7 @@ h1,
   transform: translateY(-3em);
 }
 
-@media screen and (max-width: 576px) {
+@media screen and (max-width: 800px) {
   .container .right .icon-list {
     -webkit-transform: translateY(-0.1em);
     transform: translateY(-0.1em);
